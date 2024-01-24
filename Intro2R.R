@@ -2,6 +2,8 @@
 # The University of Texas at San Antonio
 # URP-5393: Urban Planning Methods II
 
+git config user.email "kenya.felder@my.utsa.edu"
+git config user.name "Kenyala Felder"
 
 #---- INSTRUCTIONS ----
 # Objective: Familiarize yourself with R syntax (programming lenguage)
