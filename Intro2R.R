@@ -21,45 +21,49 @@ a<-1 # 'a' is equal to 1
 
 #------ Part 2: Let's create  objects ------
 
-twoplustwo <- 2 + 2
-two_plus_two <- 2 + 2
-two.plus.two <- 2 + 2
+twoplustwo <- 2 + 2 #the name 'twoplustwo' is used as a short cut for 2+2, which in the console equals 4
+two_plus_two <- 2 + 2 #the name 'two_plus_two' is used as a short cut for 2+2, which in the console equals 4
+two.plus.two <- 2 + 2 #the name 'two.plus.two' is used as a short cut for 2+2, which in the console equals 4
 
-two-plus-two <- 2 + 2
+two-plus-two <- 2 + 2 # R is unable to run this value because, it equates the '-' as a subtract sign, as a result not recognizing two
 
 #------ Part 3: R Functions to create/manipulate objects ------
 
-twoplustwo
+twoplustwo # the value is the equivalent of 2+2, which when ran, equals to 4
 
-twoplustwo*twoplustwo
+twoplustwo*twoplustwo # because these values equal 4 and'*' is multiplying, the result would be 16
 
 
 #What class of object is 'twoplustwo'?
 
-class(twoplustwo)
+class(twoplustwo) # numeric
 
 # What can be done with object 'twoplustwo'?
-sum(two_plus_two,twoplustwo,3)
+sum(two_plus_two,twoplustwo,3) # twoplustwo can be added into functions to represent the value of 4, the the function, it sums to make 16
 
-sum(c(two_plus_two,twoplustwo,3))
+sum(c(two_plus_two,twoplustwo,3)) #this function combines two_plus_two,twoplustwo,3 together, while sum() adds all the values together
 
 #------ Part 4: more on objects ------
 
-a<-1
+a<-1 #'a' is equal to 1
 
-b<-"1"
+b<-"1" #'b' is equal to "1"
 
-l1<-list(a,b)
+l1<-list(a,b) #the data value 'l1' holds the data list of a and b from above
 
-m1<-matrix(0,2,2)
+m1<-matrix(0,2,2) #the data 'm1' using the formula matrix to create a matrix from the given values, 0,2,2
 
-sq1<-seq(1,10,1)
+?matrix
 
-sq2<-LETTERS[sq1]
+sq1<-seq(1,10,1) # using the seq function ask R to equate sq1 with 1-10, one time
 
-df1<- data.frame(sq1,sq1)
+sq2<-LETTERS[sq1]  # using the value sq1 to connect the seq function allowed sq2 to create a sequence using the alphabet, one time
 
-data_cube<-array(data = 0,dim = c(2,2,3))
+
+df1<- data.frame(sq1,sq1) #data.frame creates a visual data sheet, with previous values sq1 and making an alternate version, sq1.1, for the secound same column
+
+data_cube<-array(data = 0,dim = c(2,2,3)) 
+
 
 #------ Part 5: Indexing Objects ------
 
