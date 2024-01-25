@@ -146,7 +146,7 @@ Type_of_Food<-c('jamaican food','fast food','fast food','BBQ','Brunch')
 favorite_places_to_eat<-data.frame(ranking_number,Name_of_the_restaurant,Type_of_Food)
 
 
-
+#
 
 
 
