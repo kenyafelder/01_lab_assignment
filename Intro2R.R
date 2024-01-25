@@ -14,9 +14,9 @@
 
 #------ Part 1: Exploring R ------
 
-print('Hi world!, Mom look!, I am programming in R!,...')
+print('Hi world!, Mom look!, I am programming in R!,...') # the print function allows you to copy anything within the ( ), to be printed in the console
 
-a<-1
+a<-1 # 'a' is equal to 1
 
 
 #------ Part 2: Let's create  objects ------
